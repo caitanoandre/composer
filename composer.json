@@ -1,0 +1,13 @@
+{
+    "name": "admin/composer",
+    "description": "Meu projeto com composer",
+    "type": "project",
+    "require": {
+        "monolog/monolog": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Admin\\Composer\\": "src/"
+        }
+    }
+}
